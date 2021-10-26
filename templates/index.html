@@ -1,9 +1,24 @@
 {% extends 'base.html' %}
 
 {% block head %}
-<title>Home</title> 
+<title>Home</title>
 {% endblock %}
 
 {% block body %}
+<br>
 <h1>Home Page</h1>
+<br>
+<main role="main">
+    <div class="jumbotron">
+        <div class="col-sm-8 mx-auto">
+            <h1>Welcome</h1>
+            <p>Welcome to my Blog! We will talk about all things related to Computer Science. Let's all get learning! </p>
+            <p>Keep practicing and applying and soon you will be an expert!</p>
+            <p>
+                <a class="btn btn-primary" href="/posts" role="button">Go to Posts 
+                    &raquo;</a>
+            </p>
+        </div>
+    </div>
+</main>
 {% endblock %}
